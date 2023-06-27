@@ -1,0 +1,170 @@
+@media (max-width: 1880px) {
+  body {
+    background-color: orange;
+    display: none;
+    padding-top:3em;
+  }
+}
+@media (max-width: 1480px) {
+  body {
+    background-color: lightgreen;
+    display: none;
+    padding-top:3em;
+  }
+}
+@media (max-width: 850px) {
+  body {
+    background-color: lemonchiffon;
+    display: block;
+    padding-top:3em;
+  }
+}
+
+.gameboard {
+  border: solid black;
+  /* height:620px; */
+  margin: 1em;
+}
+.space {
+  border: solid blue;
+  height: 90px;
+  width: 90px;
+  /* display:flex; */
+}
+.backRow,
+.frontRow {
+  display: flex;
+}
+.midRow {
+  /* border:solid red; */
+  height: 75%;
+  display: flex;
+}
+.centerStage {
+  width: 80%;
+  background-color: lightgray;
+}
+.chance {
+  border: solid green;
+  border-radius: 12px;
+  height: 70px;
+  width: 170px;
+  margin: 1em;
+}
+.chance:hover {
+  border: solid rgb(7, 93, 7);
+  border-radius: 12px;
+  height: 70px;
+  width: 170px;
+  margin: 1em;
+  border-width: 3px;
+  background-color: green;
+}
+.tChest {
+  border: solid orange;
+  border-radius: 12px;
+  height: 70px;
+  width: 170px;
+  margin: 1em;
+  margin-left: 65%;
+  
+}
+.tChest:hover {
+  border: solid orange;
+  border-radius: 12px;
+  height: 70px;
+  width: 170px;
+  margin: 1em;
+  margin-left: 65%;
+  border-width: 3px;
+  background-color: peru;
+}
+.mainLogo {
+  height: 200px;
+  padding-left: 15%;
+  /* border: solid red; */
+}
+.monopoly {
+  height: 100%;
+}
+.chester,
+.chancer {
+height:60px;
+padding-left: 30%;
+}
+.color {
+  border: solid grey;
+  background-color: lightblue;
+  height: 20px;
+  margin-bottom: 10px;
+  /* background-color:green */
+}
+.color1 {
+  border: solid grey;
+  background-color: salmon;
+  height: 20px;
+  margin-bottom: 10px;
+  /* background-color:green */
+}
+.color2 {
+  border: solid grey;
+  background-color: purple;
+  height: 20px;
+  margin-bottom: 10px;
+  /* background-color:green */
+}
+.color3 {
+  border: solid grey;
+  background-color: yellow;
+  height: 20px;
+  margin-bottom: 10px;
+  /* background-color:green */
+}
+
+.propLogo {
+  height: 30px;
+  margin-left: 20px;
+}
+.title {
+  width: 50%;
+  height: 100px;
+}
+.playerContainer {
+  /* border: solid black; */
+  height: 12vh;
+  display:flex;
+  justify-content: space-between;
+  display: flex;
+}
+.userOne {
+  border: solid salmon;
+  width:40%;
+  height:40px;
+  text-align:center;
+ display:flex;
+ justify-content: space-evenly;
+}
+.userTwo {
+  border: solid salmon;
+  width:40%;
+  height:40px;
+  text-align:center;
+  display:flex;
+  justify-content: space-evenly;
+ 
+}
+.rolla{
+    height:60%;
+    border-radius:22px;
+}
+.icon{
+    height:30px;
+    width:30px;
+    border-width:.2px;
+}
+.icon:hover{
+    height:30px;
+    border:solid black;
+    border-radius:50%;
+    border-width:.2px;
+}
